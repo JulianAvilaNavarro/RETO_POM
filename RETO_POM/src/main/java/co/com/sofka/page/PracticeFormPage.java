@@ -125,8 +125,7 @@ public class PracticeFormPage extends CommonActionOnpages{
             click(locatorCiudadDestino);
         }
 
-        //explicitWaitTime(locatorCiudadDestino);
-        //click(locatorCiudadDestino);
+
         pressEnter(ciudadDestino);
 
 
@@ -354,8 +353,7 @@ public class PracticeFormPage extends CommonActionOnpages{
 
         }
 
-        //explicitWaitTime(locatorCiudadDestino);
-        //click(locatorCiudadDestino);
+
         pressEnter(ciudadDestino);
 
 

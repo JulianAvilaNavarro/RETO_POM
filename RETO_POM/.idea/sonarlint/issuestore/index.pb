@@ -29,6 +29,8 @@ Z
 *src/main/java/co/com/sofka/util/Clase.java,3\3\33fe48e90374e140d87cda39a02d2a43b5912102
 o
 ?src/main/java/co/com/sofka/page/common/CommonActionOnpages.java,8\5\85766e7c66ff8b0c9526f99f70d87164deb74ecc
+o
+?src/test/java/co/com/sofka/runner/PracticeFormTestCucumber.java,1\9\197254ff7b80ace11c83ff0f6fed65bbbc84eaab
 [
 +src/test/java/co/com/sofka/setup/WebUI.java,e\c\ec9e7476e723632376706617c2809c67c087ab05
 …
@@ -39,7 +41,5 @@ Usrc/test/java/co/com/sofka/stepdefinition/PracticeFormTestCucumberStepDefinitio
 +src/main/java/co/com/sofka/util/Gender.java,2\d\2de349a11a5019501a4405b2664bedca9edf33bc
 g
 7src/main/java/co/com/sofka/model/PracticeFormModel.java,c\c\cced29bd2852b5a571199021a02a7fb6605a1c00
-o
-?src/test/java/co/com/sofka/runner/PracticeFormTestCucumber.java,1\9\197254ff7b80ace11c83ff0f6fed65bbbc84eaab
 e
 5src/main/java/co/com/sofka/page/PracticeFormPage.java,d\6\d65caa07b62efca1ed2be83423833413af9070e0
