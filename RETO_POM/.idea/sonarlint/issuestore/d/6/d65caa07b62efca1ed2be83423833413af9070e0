@@ -1,35 +1,32 @@
 
 N
 java:S3416"3Update this logger to use "PracticeFormPage.class".(Ö£’ÿþÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(îÅÛûûÿÿÿÿ
 h
-java:S3776f"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(åƒèô
+java:S3776e"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(åƒèô
 
-java:S1130f"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(åƒèô
-V	java:S125|"<This block of commented-out lines of code should be removed.(óó«‚ýÿÿÿÿ
-^	java:S125ß"<This block of commented-out lines of code should be removed.(óó«‚ýÿÿÿÿ8ž“©øà/
+java:S1130e"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(åƒèô
 4
 java:S1128"Remove this duplicated import.(ÿŠÞ›
 H
 java:S1068"-Remove this unused "webDriver" private field.(î²Ô›úÿÿÿÿ
 A
-java:S1068"+Remove this unused "menores" private field.(Á™•§
+java:S1068"+Remove this unused "menores" private field.(Á™•§
 J
-java:S1068"/Remove this unused "edadMenores" private field.(Ñ§³âÿÿÿÿÿ
+java:S1068"/Remove this unused "edadMenores" private field.(Ñ§³âÿÿÿÿÿ
 h
-java:S1192‡"QDefine a constant instead of duplicating this literal "div[data-month='" 3 times.(Ýá±…
+java:S1192…"QDefine a constant instead of duplicating this literal "div[data-month='" 3 times.(Ýá±…
 f
-java:S1192û"JDefine a constant instead of duplicating this literal "Masculino" 3 times.(Š«û—úÿÿÿÿ
+java:S1192ù"JDefine a constant instead of duplicating this literal "Masculino" 3 times.(Š«û—úÿÿÿÿ
 
-java:S1192‡"jDefine a constant instead of duplicating this literal "'] .sbox5-monthgrid-datenumber:nth-child(" 3 times.(Ýá±…
+java:S1192…"jDefine a constant instead of duplicating this literal "'] .sbox5-monthgrid-datenumber:nth-child(" 3 times.(Ýá±…
 ‚
-java:S1192ù"kDefine a constant instead of duplicating this literal "No se encontro el campo de genero Femenino" 3 times.(ó–Š²
+java:S1192÷"kDefine a constant instead of duplicating this literal "No se encontro el campo de genero Femenino" 3 times.(ó–Š²
 `
-java:S1192ö"IDefine a constant instead of duplicating this literal "Femenino" 3 times.(¥¿ª
+java:S1192ô"IDefine a constant instead of duplicating this literal "Femenino" 3 times.(¥¿ª
 ƒ
-java:S1192þ"lDefine a constant instead of duplicating this literal "No se encontro el campo de genero Masculino" 3 times.(ÆÄ
+java:S1192ü"lDefine a constant instead of duplicating this literal "No se encontro el campo de genero Masculino" 3 times.(ÆÄ
 †
-java:S1192ô"oDefine a constant instead of duplicating this literal "No se encontro el campo de fecha de nacimiento" 3 times.(ôµ€©
+java:S1192ò"oDefine a constant instead of duplicating this literal "No se encontro el campo de fecha de nacimiento" 3 times.(ôµ€©
 j
 java:S1104"OMake log a static final constant or non-public and provide accessors if needed.(Ö£’ÿþÿÿÿÿ
 D

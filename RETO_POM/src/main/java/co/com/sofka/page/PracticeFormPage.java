@@ -19,7 +19,6 @@ public class PracticeFormPage extends CommonActionOnpages{
     private final By vueloIda= By.xpath("//*[@id=\"searchbox-sbox-box-flights\"]/div/div[1]/div/span[2]/label");
     private final By vueloIdaVuleta= By.xpath("//*[@id=\"searchbox-sbox-box-flights\"]/div/div[1]/div/span[1]/label");
     private final By ciudadOrigen = By.xpath("//*[@id=\"searchbox-sbox-box-flights\"]/div/div[2]/div[1]/div[1]/div[1]/div/div[1]/div[1]/div/input");
-    //private final By ciudadDestino = By.xpath("//*[@id=\"searchbox-sbox-box-flights\"]/div/div[2]/div[1]/div[1]/div[1]/div/div[2]/div/div/input");
     private final By ciudadDestino = By.cssSelector("input[placeholder='Ingresa hacia dónde viajas']");
     private final By date = By.xpath("//*[@id=\"searchbox-sbox-box-flights\"]/div/div[2]/div[1]/div[1]/div[2]/div/div[1]/div/div/div/div/input");
     private final By date2 =By.xpath("//*[@id=\"searchbox-sbox-box-flights\"]/div/div[2]/div[1]/div[1]/div[2]/div/div[2]/div/div/div/div/input");
@@ -121,7 +120,6 @@ public class PracticeFormPage extends CommonActionOnpages{
             log.info("Se detecto bug en el campo ciudad de destino");
             clearText(ciudadDestino);
             typeInto(ciudadDestino, practiceFormModel.getCiudadDestino());
-            //explicitWaitTime(locatorCiudadDestino);
             click(locatorCiudadDestino);
         }
 
@@ -348,7 +346,6 @@ public class PracticeFormPage extends CommonActionOnpages{
             log.info("Se detecto bug en el campo ciudad de destino");
             clearText(ciudadDestino);
             typeInto(ciudadDestino, practiceFormModel.getCiudadDestino());
-            //explicitWaitTime(locatorCiudadDestino);
             click(locatorCiudadDestino);
 
         }
