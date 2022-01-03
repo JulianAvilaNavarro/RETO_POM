@@ -135,7 +135,7 @@ public class PracticeFormPage extends CommonActionOnpages{
         var dayToGoLocator =By.cssSelector("div[data-month='"+practiceFormModel.getAnoPartida()+"-"+practiceFormModel.getMesPartida()+"'] .sbox5-monthgrid-datenumber:nth-child("+practiceFormModel.getDiaPartida()+")");
         click(date);
         scrollTo(locatorScrollAuxiliar);
-        for(Integer i=0 ; i<=Integer.parseInt(practiceFormModel.getMesPartida())-1 ; i++){
+        for(Integer i=0 ; i<Integer.parseInt(practiceFormModel.getMesPartida())-1 ; i++){
             click(flechaCambioFecha);
         }
         click(dayToGoLocator);
@@ -364,7 +364,7 @@ public class PracticeFormPage extends CommonActionOnpages{
         var day1ToGoLocator =By.cssSelector("div[data-month='"+practiceFormModel.getAnoPartida()+"-"+practiceFormModel.getMesPartida()+"'] .sbox5-monthgrid-datenumber:nth-child("+practiceFormModel.getDiaPartida()+")");
         click(date);
         scrollTo(locatorScrollAuxiliar);
-        for(Integer i=0 ; i<=Integer.parseInt(practiceFormModel.getMesPartida())-1 ; i++){
+        for(Integer i=0 ; i<Integer.parseInt(practiceFormModel.getMesPartida())-1 ; i++){
             click(flechaCambioFecha);
         }
         click(day1ToGoLocator);
